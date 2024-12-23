@@ -1,0 +1,48 @@
+FR	75000	Paris	Île-de-France	11	Paris	75	Paris	101	48.8566	2.3522	5
+FR	69000	Lyon	Auvergne-Rhône-Alpes	84	Rhône	69	Lyon	111	45.7640	4.8357	5
+FR	13000	Marseille	Provence-Alpes-Côte d'Azur	93	Bouches-du-Rhône	13	Marseille	102	43.2965	5.3698	5
+FR	31000	Toulouse	Occitanie	76	Haute-Garonne	31	Toulouse	103	43.6047	1.4442	5
+FR	06000	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Nice	104	43.7102	7.2620	5
+FR	44000	Nantes	Pays de la Loire	52	Loire-Atlantique	44	Nantes	105	47.2184	-1.5536	5
+FR	34000	Montpellier	Occitanie	76	Hérault	34	Montpellier	106	43.6119	3.8772	5
+FR	67000	Strasbourg	Grand Est	44	Bas-Rhin	67	Strasbourg	107	48.5734	7.7521	5
+FR	33000	Bordeaux	Nouvelle-Aquitaine	75	Gironde	33	Bordeaux	108	44.8378	-0.5792	5
+FR	59000	Lille	Hauts-de-France	32	Nord	59	Lille	109	50.6292	3.0573	5
+FR	21000	Dijon	Bourgogne-Franche-Comté	27	Côte-d'Or	21	Dijon	110	47.3220	5.0415	5
+FR	80000	Amiens	Hauts-de-France	32	Somme	80	Amiens	111	49.8950	2.3023	5
+FR	60000	Beauvais	Hauts-de-France	32	Oise	60	Beauvais	112	49.4333	2.0833	5
+FR	45000	Orléans	Centre-Val de Loire	24	Loiret	45	Orléans	113	47.9029	1.9093	5
+FR	76000	Rouen	Normandie	28	Seine-Maritime	76	Rouen	114	49.4432	1.0993	5
+FR	49000	Angers	Pays de la Loire	52	Maine-et-Loire	49	Angers	115	47.4784	-0.5632	5
+FR	17000	La Rochelle	Nouvelle-Aquitaine	75	Charente-Maritime	17	La Rochelle	116	46.1591	-1.1520	5
+FR	8000	Perpignan	Occitanie	76	Pyrénées-Orientales	66	Perpignan	117	42.6887	2.8948	5
+FR	72000	Le Mans	Pays de la Loire	52	Sarthe	72	Le Mans	118	47.9959	0.1926	5
+FR	34000	Nîmes	Occitanie	76	Gard	30	Nîmes	119	43.8367	4.3601	5
+FR	83100	Toulon	Provence-Alpes-Côte d'Azur	93	Var	83	Toulon	120	43.1255	5.9300	5
+FR	38000	Grenoble	Auvergne-Rhône-Alpes	84	Isère	38	Grenoble	121	45.1885	5.7245	5
+FR	57000	Metz	Grand Est	44	Moselle	57	Metz	122	49.1193	6.1757	5
+FR	41000	Blois	Centre-Val de Loire	24	Loir-et-Cher	41	Blois	123	47.5861	1.3357	5
+FR	49000	Cholet	Pays de la Loire	52	Maine-et-Loire	49	Cholet	124	47.0598	-0.8796	5
+FR	16000	Angoulême	Nouvelle-Aquitaine	75	Charente	16	Angoulême	125	45.6484	0.1560	5
+FR	73000	Chambéry	Auvergne-Rhône-Alpes	84	Savoie	73	Chambéry	126	45.5646	5.9178	5
+FR	10000	Troyes	Grand Est	44	Aube	10	Troyes	127	48.2973	4.0744	5
+FR	37000	Tours	Centre-Val de Loire	24	Indre-et-Loire	37	Tours	128	47.3941	0.6848	5
+FR	87000	Limoges	Nouvelle-Aquitaine	75	Haute-Vienne	87	Limoges	129	45.8336	1.2611	5
+FR	47000	Agen	Nouvelle-Aquitaine	75	Lot-et-Garonne	47	Agen	130	44.2038	0.6167	5
+FR	64000	Pau	Nouvelle-Aquitaine	75	Pyrénées-Atlantiques	64	Pau	131	43.2951	-0.3708	5
+FR	30000	Alès	Occitanie	76	Gard	30	Alès	132	44.1230	4.0807	5
+FR	71000	Mâcon	Bourgogne-Franche-Comté	27	Saône-et-Loire	71	Mâcon	133	46.3064	4.8288	5
+FR	35000	Rennes	Bretagne	53	Ille-et-Vilaine	35	Rennes	134	48.1173	-1.6778	5
+FR	18000	Bourges	Centre-Val de Loire	24	Cher	18	Bourges	135	47.0810	2.3988	5
+FR	68000	Colmar	Grand Est	44	Haut-Rhin	68	Colmar	136	48.0790	7.3585	5
+FR	20000	Ajaccio	Corse	94	Corse-du-Sud	2A	Ajaccio	137	41.9192	8.7386	5
+FR	86000	Poitiers	Nouvelle-Aquitaine	75	Vienne	86	Poitiers	138	46.5802	0.3404	5
+FR	25000	Besançon	Bourgogne-Franche-Comté	27	Doubs	25	Besançon	139	47.2378	6.0241	5
+FR	56000	Vannes	Bretagne	53	Morbihan	56	Vannes	140	47.6582	-2.7608	5
+FR	66000	Narbonne	Occitanie	76	Aude	11	Narbonne	141	43.1843	3.0031	5
+FR	26000	Valence	Auvergne-Rhône-Alpes	84	Drôme	26	Valence	142	44.9334	4.8924	5
+FR	81000	Albi	Occitanie	76	Tarn	81	Albi	143	43.9298	2.1480	5
+FR	17000	Saintes	Nouvelle-Aquitaine	75	Charente-Maritime	17	Saintes	144	45.7455	-0.6333	5
+FR	22100	Dinan	Bretagne	53	Côtes-d'Armor	22	Dinan	145	48.4551	-2.0474	5
+FR	27100	Val-de-Reuil	Normandie	28	Eure	27	Val-de-Reuil	146	49.2733	1.2136	5
+FR	60000	Creil	Hauts-de-France	32	Oise	60	Creil	147	49.2558	2.4839	5
