@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 29 Oct 2024 19:14:18 at http://www.uniondespeintres.fr
+(httrack http://www.uniondespeintres.fr -w -r3 -%e3 -O ./website_downloaded -s0 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:14:37	Error: 	"Method Not Allowed" (405) at link www.uniondespeintres.fr/xmlrpc.php (from www.uniondespeintres.fr/)
+19:17:23	Error: 	"Not Found" (404) at link www.uniondespeintres.fr/peinture-amiens-2/ (from www.uniondespeintres.fr/)
+19:17:24	Warning: 	Moved Permanently for www.uniondespeintres.fr/ravalement-facade/
+19:17:24	Warning: 	File has moved from www.uniondespeintres.fr/ravalement-facade/ to http://www.uniondespeintres.fr/ravalement-facade-amiens/
+19:17:24	Warning: 	Retry after error 500 (Internal Server Error) at link www.uniondespeintres.fr/wp-content/themes/constructo/ (from www.uniondespeintres.fr/)
+19:17:25	Warning: 	File not parsed, looks like binary: www.uniondespeintres.fr/wp-content/plugins/revslider/public/assets/css/openhand.cur
+19:17:26	Warning: 	File not parsed, looks like binary: www.uniondespeintres.fr/wp-content/plugins/revslider/public/assets/css/closedhand.cur
+19:17:30	Error: 	"Not Found" (404) at link www.uniondespeintres.fr/wp-content/themes/constructo/css/boxed/pattern-10.png (from www.uniondespeintres.fr/wp-content/themes/constructo/css/core.css?ver=4.9.26)
+19:17:30	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=11
+19:17:30	Warning: 	File has moved from www.uniondespeintres.fr/?p=11 to http://www.uniondespeintres.fr/entreprise-peinture-amiens/
+19:17:30	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=861
+19:17:30	Warning: 	File has moved from www.uniondespeintres.fr/?p=861 to http://www.uniondespeintres.fr/peinture-interieur-amiens/
+19:17:30	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=256
+19:17:30	Warning: 	File has moved from www.uniondespeintres.fr/?p=256 to http://www.uniondespeintres.fr/ravalement-facade-amiens/
+19:17:30	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=911
+19:17:30	Warning: 	File has moved from www.uniondespeintres.fr/?p=911 to http://www.uniondespeintres.fr/revetement-sol-amiens/
+19:17:34	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=793
+19:17:34	Warning: 	File has moved from www.uniondespeintres.fr/?p=793 to http://www.uniondespeintres.fr/nos-realisations/
+19:17:34	Warning: 	Moved Permanently for www.uniondespeintres.fr/?p=15
+19:17:34	Warning: 	File has moved from www.uniondespeintres.fr/?p=15 to http://www.uniondespeintres.fr/nous-contacter/
+19:17:34	Warning: 	Retry after error 500 (Internal Server Error) at link www.uniondespeintres.fr/wp-content/themes/constructo/ (from www.uniondespeintres.fr/)
+19:17:34	Error: 	"Internal Server Error" (500) after 2 retries at link www.uniondespeintres.fr/wp-content/themes/constructo/ (from www.uniondespeintres.fr/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 16 seconds : 194 links scanned, 181 files written (7101100 bytes overall) [4756787 bytes received at 24269 bytes/sec], 3376129 bytes transferred using HTTP compression in 79 files, ratio 26%, 9.2 requests per connection
+(4 errors, 18 warnings, 0 messages)

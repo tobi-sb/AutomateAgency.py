@@ -1,0 +1,34 @@
+[
+    {
+        "type": "nom de société",
+        "content": "Esthéticienne Marcel4"
+    },
+    {
+        "type": "shortedname",
+        "content": "Esthéticienne Marcel4"
+    },
+    {
+        "type": "numéro de téléphone",
+        "content": "07 61 65 52 75"
+    },
+    {
+        "type": "email",
+        "content": "marcelbelaw@gmail.com"
+    },
+    {
+        "type": "adresse physique",
+        "content": "43 avenu du président wilson"
+    },
+    {
+        "type": "nom de ville",
+        "content": "Lyon"
+    },
+    {
+        "type": "categorie",
+        "content": "Esthéticienne à domicile"
+    },
+    {
+        "type": "logo",
+        "content": "./logo/Esthéticienne Marcel_logo.png"
+    }
+]

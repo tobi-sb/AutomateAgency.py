@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@-webkit-keyframes ani-fb-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes ani-fb-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes ani-fb-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.fb-review,.fb-review *{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.clear{
+
+	clear: both;
+
+}
+
+.fb-review {padding: 10px;overflow: hidden;position: relative;padding-bottom: 40px;}
+
+.fb-review.boxshow{/* box-shadow: 1px 1px 1px 1px #ccc; */-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);font-family: Roboto;border: none!important;position: relative;padding-bottom: 40px;}
+.fb-review .fb-review-content{font-size: 0}
+.fb-review .fb-review-content .njt-fr-group-item{font-size: 14px;color: #434a54;}
+@media(max-width: 430px){
+	.fb-review .fb-review-content .njt-fr-group-item{ min-width: 100%}
+}
+.fb-review .fb-review-content .njt-fr-group-item .njt-fr-review-text{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: roboto;
+	font-weight: 500;
+	color: #434a54;
+}
+.fb-review .njt-fr-group-item{/*width: 200px;*/min-height: 75px;display: inline-block;padding:  10px;vertical-align: top;}
+
+.fb-review .njt-fr-group-item h3{color: #434a54;font-family: Roboto;padding: 0;margin: 0;font-size: 18px;margin: 0 0 5px;}
+
+.fb-review .njt-fr-group-item .njt-fr-rating {width: 100%;overflow: hidden;margin-bottom: 10px;}
+
+.fb-review .njt-fr-group-item .njt-fr-rating ul{
+
+	margin-bottom: 0;
+  margin-left: 0;
+
+}
+
+.fb-review .njt-fr-group-item .njt-fr-rating ul li{
+
+    list-style: none;
+
+    float: left;
+
+    font-size: 15px;
+
+    color: #5080F7;
+
+    padding: 2px;
+
+}
+.fb-review .njt-fr-group-item .njt-fr-rating ul li img {
+  width: 10px;
+}
+
+
+.fb-review-more{width: 100%;font-size: 14px;-webkit-font-smoothing: antialiased;font-weight: bold;text-align: center;text-shadow: none;vertical-align: middle;box-shadow: none !important;display: block;cursor: pointer;font-family: Roboto;}
+
+
+
+.fb-review-more{background-color: #ccd1d9;/* border-color: #ced0d4; */color: #434a54 !important;line-height: 30px;padding: 0 16px;border: none;position: absolute;bottom: 0;height: 30px;left: 0;}
+
+
+
+.fb-review-more:hover{background-color: #ccd1d9;box-shadow: none !important;}
+
+
+
+
+
+
+.njt-fr-stars{}
+.njt-fr-stars .njt-fr-starsnumb{}
+.njt-fr-stars .njt-fr-starslist-wrapper{
+    font-size: 0;
+    line-height: 0;
+    float: left;
+    width: 106px;
+    height: 24px;
+}
+
+.fb-review-main{
+    padding-top: 36px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+.fb-review-main:before{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 36px;
+	top: 0;
+	left: 0;
+	background: #3b5998;
+	z-index: 1;
+}
+.fb-review-main:after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+	content: '';
+	width: 23px;
+	height: 36px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: url(../assets/frontend/img/facebook-letter-logo.html);
+	background-size: 50px;
+	background-position: -13px 0px;
+	opacity: 0.09;
+}
+.fb-review-more.js__fb_hide_after_load:not(.js__fb_loading){
+	display: none;
+}
+.fb-review-more.js__fb_loading:before{
+	content: '';
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url('../assets/frontend/img/spinner-of-dots.html') 0 0 no-repeat;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+	-webkit-animation: ani-fb-spin 1.4s infinite linear;
+	-moz-animation: ani-fb-spin 1.4s infinite linear;
+    animation: ani-fb-spin 1.4s infinite linear;
+}
+.hide-head{
+padding-top: 0;
+}
+.hide-head:before{
+  height: 0;
+}
+.njt-google-places-reviews-wap{
+  overflow: hidden;
+}
+.njt-google-places-reviews-wap {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: relative;width: 100%;-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);font-family: Roboto;padding: 15px;border-top: 8px solid #f44295;font-size: 14px;line-height: 24px;}
+.njt-header {overflow: hidden;position: relative;padding-bottom: 15px;border-bottom: 1px solid #e0e0e0;margin-bottom: 15px;}
+.njt-header-badge{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.njt-header:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.njt-header .njt-header-content{
+	margin-left: 90px;
+}
+.njt-header .njt-header-content:after{
+	content: '';
+	width: 61px;
+	height:20px;
+	background: url(../img/Google_2015_logo.svg) 0 0 no-repeat;
+	display: block;
+	margin-top: 2px;
+	background-size: 100%;
+}
+.njt-header-image {
+  width: 80px;
+  overflow: hidden;
+  height: 80px;
+  position: relative;
+  float: left;
+}
+.njt-header .njt-fr-starsnumb {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+  color: #e7711b;
+  font-weight: 500;
+}
+.njt-header .njt-fr-starsnumb span{
+    font-size: 24px;
+    line-height: 38px;
+}
+.njt-header-image img {height: 80px;max-width: 500px;min-width: 100%;transform: translate(-50%,0);left: 50%;position: absolute;}
+.njt-review-avatar{width: 60px;overflow: hidden;height: 60px;float: left;border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%;}
+.njt-review-avatar img{
+  height: 100%;
+}
+.njt-clearfix{
+  clear: both;
+}
+.njt-review .njt-review-content{
+  padding-top: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f44295;
+}
+.njt-review .njt-review-content > *{
+	display: inline;
+}
+.njt-review .njt-review-content a{
+    font-size: 14px;
+    color: #1a0dab;
+}
+.njt-review .njt-review-content a:hover{
+	color: #e7711b
+}
+.njt-review {padding-top: 20px;padding-bottom: 10px;}
+.njt-review .njt-review-header{}
+.njt-review .njt-review-info{
+    margin-left: 73px;
+}
+.njt-review .njt-fr-starslist-wrapper{
+    padding: 5px 0;
+    line-height: 0;
+    background: none;
+}
+.njt-review .gpr-rating-time{
+    color: #999999;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    margin-top: 10px;
+}
+.njt-review .njt-fr-starsnumb{ display: none;}
+.njt-review .njt-review-info .grp-reviewer-name{
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    line-height: 18px;
+}
+.njt-review .njt-review-info .grp-reviewer-name a{
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    color: #4285f4;
+    line-height: 18px;
+}
+.njt-review .njt-review-info .grp-reviewer-name a:hover{
+	color: #e7711b
+}
+.njt-review .njt-review-info .grp-reviewer-name span{}
+.btn-reivew {
+
+  font-size: 19px;
+  color: red;
+  box-shadow: none !important;
+}
+.btn-reivew:hover,.btn-reivew:focus{
+  color: red;
+  box-shadow: none !important;
+  border: none;
+}
+.njt-header .njt-header-title{
+	color: #434a54;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 24px;
+}
+.njt-header .njt-header-title a{
+	color: #434a54;
+	text-decoration: none;
+	box-shadow: none;
+	border: none;
+	font-weight: 700;
+	transition: 0.4s ease all;
+	-moz-transition: 0.4s ease all;
+	-webkit-transition: 0.4s ease all;
+}
+.njt-header .njt-header-title a:hover{
+	color: #e7711b
+}
+.njt-header .njt-fr-starslist-wrapper{
+	display: inline-block;
+	height: 39px;
+  padding-top: 9px;
+  background: unset !important;
+}
+.njt-google-places-reviews-wap .njt-fr-starslist-wrapper .njt-fr-starslist-current{
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.njt-google-places-reviews-wap .njt-fr-starslist-wrapper .njt-fr-star{
+    background: url('../img/rate-star-button.svg') 0 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.njt-fr-starslist-wrapper .njt-fr-starslist-background{}
+.njt-fr-starslist-wrapper .njt-fr-starslist-current .njt-fr-star{}
+.njt-google-places-reviews-wap .njt-fr-starslist-wrapper .njt-fr-starslist-background .njt-fr-star{
+    background-image: url(../img/rate-star-button-gray.svg);
+}
+.njt-google-places-reviews-wap .njt-fr-starslist-wrapper .njt-fr-starslist-container{
+    position: relative;
+    font-size: 0;
+    height: 18px;
+    display: inline-block;
+}
+.njt-google-places-reviews-wap .njt-google-places-reviews .njt-fr-starslist-wrapper{
+  background: none;
+}
+
+/*column*/
+.njt-review{
+  float: left;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.njt-disabled-shadow{
+  box-shadow: none;
+}
+.njt-google-places-reviews-wap .slick-initialized .slick-slide{
+	border: none;
+	outline: none;
+}
+.njt-google-places-reviews-wap .njt-gr-slick-prev,.njt-google-places-reviews-wap .njt-gr-slick-next{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-color: rgba(66, 133, 244,0.7);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+.njt-google-places-reviews-wap .njt-gr-slick-prev:hover,.njt-google-places-reviews-wap .njt-gr-slick-next:hover{
+	background-color: rgba(66, 133, 244,1);
+}
+.njt-google-places-reviews-wap .njt-gr-slick-prev{
+    left: -12px;
+    background-image: url(../img/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 6px 7px;
+    background-size: 60% 60%;
+}
+.njt-google-places-reviews-wap .njt-gr-slick-next{
+    right: -12px;
+    background-image: url(../img/right-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    background-size: 60% 60%;
+}
+.njt-google-places-reviews-wap .njt-reviews-carousel-wrap{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.njt-reviews-wrap{
+    font-size: 0;
+}
+.njt-reviews-wrap .njt-review{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.njt-review-header .wrapper-google-review{
+	background: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .njt-reviews-wrap:not(.njt-reviews-carousel-wrap) .njt-review{
+    width: 100% !important;
+  }
+}

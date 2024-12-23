@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.peintre47.fr	TRUE	/	FALSE	1999999999	PHPSESSID	7c5029c9d0d93294871199ca8dafc3fe
+
