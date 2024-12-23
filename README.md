@@ -68,10 +68,9 @@ This tool is for educational purposes. Ensure compliance with:
 - Data protection laws
 
 ## 📈 Future Improvements
-- Enhanced AI communication
-- Additional template sources
-- Improved image processing
-- Extended business analysis
+- Absoluty none i got new crazy project
+- I lost my github so i'm just posting old project
+- Your a real bro to read until here, contact me on ig : tobi__sb i sent you 20$
 
 ---
 *13 pack of cola and 23gr of weed have been necesary for this project, enjoy.*
