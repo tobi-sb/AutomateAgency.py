@@ -1,8 +1,0 @@
-https://www.justindolle-peinture.fr -w -r3 -%e3 -O ./website_downloaded -s0
-File generated automatically on Tue, 29 Oct 2024 19:20:28, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
