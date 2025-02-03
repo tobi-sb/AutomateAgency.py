@@ -58,7 +58,7 @@ An automated system that creates custom websites for businesses without an onlin
 
 ## 🎨 Development Fuel
 - 13 packs of cola
-- 23g of creative inspiration
+- 23g of we3d
 
 ## ⚠️ Disclaimer
 This tool is for educational purposes. Ensure compliance with:
